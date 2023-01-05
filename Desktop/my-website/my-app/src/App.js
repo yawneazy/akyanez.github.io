@@ -1,26 +1,43 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+// import {BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Navbar from './Components/Navbar/Navbar';
+// import NavbarList from './Components/Navbar/Navbar';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Updating...dfgr
-          
-        </a>
-      </header>
-    </div>
+    <>
+    <Navbar/>
+      {/* <Routes> */}
+      {/* <Route exact path='/' element={<Homepage/>}/>
+      <Route path='/home' element={<Homepage/>}/>
+      <Route path='/Introduction' element={<Homepage/>}/>
+      <Route path='/about' element={<About/>}/>
+      {/* <Route path='/:title' element={<Details/>}/> */}
+      {/* </Routes> */}
+      {/* <Footer/> */}
+     </> 
+    
   );
+  // return (
+  //   <div className="App">
+  //     <header className="App-header">
+  //       <img src={logo} className="App-logo" alt="logo" />
+  //       <p>
+  //         Digital Black Religion Timeline
+  //       </p>
+  //       <a
+  //         className="App-link"
+  //         href="https://reactjs.org"
+  //         target="_blank"
+  //         rel="noopener noreferrer"
+  //       >
+  //         Digital Black Religion Timeline
+  //       </a>
+  //     </header>
+  //   </div>
+  // );
 }
 
 export default App;

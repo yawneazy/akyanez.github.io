@@ -1,0 +1,79 @@
+.header {
+    text-align: center;
+    /* background: white;
+    padding: 40px;
+    padding-left: 0px;
+    margin-top: -20px;
+    padding-bottom: 0px;
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;   */
+    /* overflow:hidden;  */
+    /* line-height: 30px;
+    height: 30px; */
+}
+
+.h1 {
+    font-family: "Sinhala";
+    text-align: center;
+}
+
+
+/* For the logo in the navbar */
+/* .logo {
+    float:left;
+    width: 240px;
+    height: 50px;
+    margin:0px;
+    padding:15px;
+    padding-bottom: 60px;
+} */
+
+/* Navbar text before it's hovered over */
+.navbar button{
+    /* text-decoration: none;
+    color:#793300;
+    padding: 20px 16px;
+    font-family: "Sinhala"; */
+    font-size: 20px;
+    margin-bottom:5px;
+    padding:10px 10px; 
+    background:none;
+    border:none;
+    font-family: "Sinhala";
+    margin:10;
+    padding:10;
+    cursor: pointer;
+}
+
+/* Navbar after hover*/
+.navbar button:hover {
+    color:#793300;
+    font-size: 20px;  
+    text-decoration: none;
+    background-color: white;
+    background-position: 10px;
+    text-align: center;
+    margin-bottom:5px;
+    padding:10px 10px;
+    cursor: pointer;
+}
+
+.navbar li{
+    display: inline-block;
+    /* position: relative; */
+    margin-bottom: 15px;
+}
+
+.navbar li::after{
+    position: absolute;
+    width: 2px;
+    right: 0; 
+    content: ' ';
+    height: 100%;
+    /* background: rgba(0, 0, 0, 0.2); */
+}
+.navbar li:last-child::after {
+   width: 0;
+}

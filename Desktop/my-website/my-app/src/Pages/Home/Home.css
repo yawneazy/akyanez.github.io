@@ -1,0 +1,66 @@
+body,html {
+    /* background-image: white; */
+    background: white;
+}
+
+.pageContainer {
+    /* position: relative; */
+    min-height: 100vh;
+}
+
+.right {
+    float: right;
+    width: 40vw;
+    color: black;
+}
+                                         
+.headerPhoto {
+    width: 45vw;
+    position: absolute;
+    left: 2vw;
+    top: 2vh;
+
+}
+
+.flex-item-left {
+    flex: 50%;
+}
+
+.office-photo {
+    /* position: relative; */
+    width: 100%;
+
+    /* width: 150%; */
+    height:-200%;
+    /* padding-left: -195%; */
+    /* padding-top: -70px; */
+    /* padding-bottom: 110px; */
+
+}
+
+.background {
+    width: 500px;
+    height: 250px;
+}
+
+.text {
+    font-family:'Sinhala';
+    position: absolute;
+    top: 50vh;
+    left: 2vw;
+
+}
+ 
+.textContainer {
+ 
+    position: relative;
+    top: 60%;
+    font-size: 40px;
+    padding-left: 10px;
+    color:white;
+    max-width: 100%;
+        
+}
+/* 
+.left {
+} */

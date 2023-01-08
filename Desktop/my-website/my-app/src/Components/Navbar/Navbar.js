@@ -30,7 +30,7 @@ function Navbar(props) {
         <div className="header">
           
             {/* <img src = {NavLogo} className="office-image"></img> */}
-            <div className="name">Alyssa K. Yanez</div>
+            {/* <div className="name">Alyssa K. Yanez</div> */}
             <div className="navbar">
               <ul>
                   <li><button value={navBarItems[0]} onClick={e => handleClick(e)}>{navBarItems[0]}</button></li>

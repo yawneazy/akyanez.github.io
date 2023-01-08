@@ -6,28 +6,22 @@ import homeImage from "./images/office.jpg";
 
 
 function Home(props) {
-
+ 
     return (
-        
-        <div>
-              <img src={homeImage} className = "office-photo" ></img>  
-            {/* <div className="left"> */}
-                {/* <img src={homepageContentImage} className="headerPhoto"></img>  */}
-                
-                {/* <div className="textContainer"> 
-                    <div className = "text"> 
-        
-                    
-                    </div>
-                </div>
-            {/* </div> */}
-            {/* <div className="right"> */}
-                {/* <img src = {homeOffice} className = "office-photo" ></img> */}
-            {/* </div>  */}
-
+        <header>
+        <div className = "head-text">
+          <div className = "head-image">
+          <img src={homeImage} className = "office-photo" ></img>  
+          </div>
+            <div class='text-on-image'>
+            <h3>Hi, I'm Alyssa</h3>
+          Developer, Designer, and project manager.
+        <br></br>
+        <br></br>
+          Currently based in Tucson, AZ completing my Computer Science degree from the University of Arizona
+            </div>
         </div>
-      
-           
+      </header>
 
     );
 }

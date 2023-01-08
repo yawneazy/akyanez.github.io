@@ -3,28 +3,22 @@ body,html {
     background: white;
 }
 
-.pageContainer {
-    /* position: relative; */
-    min-height: 100vh;
+/* Removes navbar from homepage only */
+.navbar { 
+    display: none;
 }
 
-.right {
-    float: right;
-    width: 40vw;
-    color: black;
-}
-                                         
-.headerPhoto {
-    width: 45vw;
-    position: absolute;
-    left: 2vw;
-    top: 2vh;
-
-}
-
-.flex-item-left {
-    flex: 50%;
-}
+.head-text {
+    position: relative;
+    font-family: "Sinhala";
+ }
+ .text-on-image {
+   position: absolute;
+   width: 50%;
+   right: 50%;
+   left: 40%;
+   bottom: 80%;
+ }
 
 .office-photo {
     /* position: relative; */
@@ -38,12 +32,39 @@ body,html {
 
 }
 
-.background {
+body.home #navigation-top {
+    display: none !important;
+   }
+
+/* .pageContainer {
+    /* position: relative; */
+  /*    min-height: 100vh;
+} */
+
+/* .right {
+    float: right;
+    width: 40vw;
+    color: black;
+}
+                                          */
+/* .headerPhoto {
+    width: 45vw;
+    position: absolute;
+    left: 2vw;
+    top: 2vh;
+
+} */
+
+/* .flex-item-left {
+    flex: 50%;
+} */
+
+/* .background {
     width: 500px;
     height: 250px;
-}
+} */
 
-.text {
+/* .text {
     font-family:'Sinhala';
     position: absolute;
     top: 50vh;
@@ -58,9 +79,8 @@ body,html {
     font-size: 40px;
     padding-left: 10px;
     color:white;
-    max-width: 100%;
-        
-}
+    max-width: 100%;   
+} */
 /* 
 .left {
 } */
